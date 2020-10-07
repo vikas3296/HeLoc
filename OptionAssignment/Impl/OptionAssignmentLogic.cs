@@ -1,12 +1,12 @@
 ﻿
-using CarringtonMortgage.Helpers;
-using CarringtonMortgage.Models.InputCopyBookModels;
+using HelocService.Helpers;
+using HelocService.Models.InputCopyBookModels;
 using System;
 using System.Collections.Generic;
-using CarringtonMortgage.Models;
-using CarringtonService.Helpers;
+using HelocService.Models;
+using HelocService.Helpers;
 
-namespace CarringtonMortgage.OptionAssignment
+namespace HelocService.OptionAssignment
 {
     public class OptionAssignmentLogic : IOptionAssignmentLogic
     {

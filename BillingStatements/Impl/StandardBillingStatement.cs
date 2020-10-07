@@ -1,12 +1,12 @@
-﻿using CarringtonMortgage.Helpers;
-using CarringtonMortgage.Models.InputCopyBookModels;
-using CarringtonService.BusinessExpert;
-using CarringtonService.Helpers;
+﻿using HelocService.Helpers;
+using HelocService.Models.InputCopyBookModels;
+using HelocService.BusinessExpert;
+using HelocService.Helpers;
 using System;
 using System.Linq;
 using System.Text;
 
-namespace CarringtonService.BillingStatements
+namespace HelocService.BillingStatements
 {
     public class StandardBillingStatement : IStandardBillingStatement
     {

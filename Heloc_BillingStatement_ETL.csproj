@@ -123,73 +123,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BusinessExpert\Impl\CRL30FileGeneration.cs" />
-    <Compile Include="BusinessExpert\ICRL30FileGeneration.cs" />
     <Compile Include="BusinessExpert\Impl\WorkFlowExpert.cs" />
-    <Compile Include="BillingStatements\IChapterSevenBillingStatement.cs" />
-    <Compile Include="BillingStatements\IChapterSevenOptionARMStatement.cs" />
-    <Compile Include="BillingStatements\IChapterThirteenBillingStatement.cs" />
-    <Compile Include="BillingStatements\IChapterThirteenOptionARMStatement.cs" />
-    <Compile Include="BillingStatements\IOptionARMBillingStatement.cs" />
-    <Compile Include="BillingStatements\IRejectStatement.cs" />
-    <Compile Include="BillingStatements\IStandardBillingStatement.cs" />
-    <Compile Include="BillingStatements\Impl\RejectStatement.cs" />
-    <Compile Include="BillingStatements\Impl\StandardBillingStatement.cs" />
-    <Compile Include="BillingStatements\Impl\OptionARMBillingStatement.cs" />
-    <Compile Include="BillingStatements\Impl\ChapterThirteenOptionARMStatement.cs" />
-    <Compile Include="BillingStatements\Impl\ChapterThirteenBillingStatement.cs" />
-    <Compile Include="BillingStatements\Impl\ChapterSevenBillingStatement.cs" />
-    <Compile Include="BillingStatements\Impl\ChapterSevenOptionARMStatement.cs" />
+    <Compile Include="BusinessExpert\IWorkFlowExpert.cs" />
     <Compile Include="DIContainer.cs" />
     <Compile Include="Helpers\IConfigHelper.cs" />
-    <Compile Include="Models\MultiLocationValueModel.cs" />
-    <Compile Include="OptionAssignment\IOptionAssignmentLogic.cs" />
     <Compile Include="Helpers\Impl\CommonHelper.cs" />
-    <Compile Include="Models\BorrowerModel.cs" />
-    <Compile Include="OptionAssignment\Impl\OptionAssignmentLogic.cs" />
     <Compile Include="Helpers\ILogger.cs" />
-    <Compile Include="BusinessExpert\IWorkFlowExpert.cs" />
-    <Compile Include="Services\IWorkFlowService.cs" />
     <Compile Include="Helpers\Impl\ConfigHelper.cs" />
     <Compile Include="Helpers\Impl\Enums.cs" />
     <Compile Include="Helpers\Impl\Logger.cs" />
     <Compile Include="Models\ConfigModel.cs" />
-    <Compile Include="Models\CmsBillingInputModel.cs" />
-    <Compile Include="Models\InputCopyBookModels\EConsentInput.cs" />
-    <Compile Include="Models\TransModel.cs" />
-    <Compile Include="Models\DetModel.cs" />
     <Compile Include="Models\InputCopyBookModels\AccountsModel.cs" />
-    <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingModels\BlendedRateInformationRecordModel.cs" />
-    <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingModels\CoBorrowerRecordModel.cs" />
-    <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingModels\EscrowRecordModel.cs" />
-    <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingModels\FeeRecordModel.cs" />
-    <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingModels\ForeignInformationRecordModel.cs" />
     <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingModels\MultiLockboxRecordModel.cs" />
     <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingModels\OptionalItemEscrowRecordModel.cs" />
-    <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingModels\RateReductionRecordModel.cs" />
-    <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingModels\SolicitationRecordModel.cs" />
-    <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingModels\TransactionRecordModel.cs" />
-    <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingModels\UserFieldRecordModel.cs" />
     <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingModels\HeaderRecordModel.cs" />
     <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingModels\InstitutionRecordModel.cs" />
     <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingModels\MasterFileDataPart1Model.cs" />
-    <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingFileModel.cs" />
     <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingModels\MasterFileDataPart2Model.cs" />
     <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingModels\PL_RecordModel.cs" />
-    <Compile Include="Models\InputCopyBookModels\EConsentModel.cs" />
-    <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingModels\ActiveBankruptcyInformationRecordModel.cs" />
-    <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingModels\ArchivedBankruptcyDetailRecordModel.cs" />
-    <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingModels\DisasterTrackingRecordModel.cs" />
-    <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingModels\EmailAddressRecordModel.cs" />
-    <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingModels\LateChargeDetailRecordModel.cs" />
-    <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingModels\LateChargeInformationRecordModel.cs" />
-    <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingModels\RHCDSOnlyRecordModel.cs" />
-    <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingModels\TrailerRecordModel.cs" />
-    <Compile Include="Models\InputCopyBookModels\SupplementalCCFModel.cs" />
     <Compile Include="Models\LogFileModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\Impl\WorkFlowService.cs" />
+    <Compile Include="Services\IWorkFlowService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -218,7 +174,10 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="BillingStatements\" />
+    <Folder Include="OptionAssignment\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Library\NCP.WMS.Core.dll" />
     <Content Include="Library\NCP.WMS.Framework.Data.dll" />

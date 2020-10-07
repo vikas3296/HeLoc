@@ -1,12 +1,12 @@
-﻿using CarringtonService;
-using CarringtonService.BusinessExpert;
-using CarringtonService.Helpers;
+﻿using HelocService;
+using HelocService.BusinessExpert;
+using HelocService.Helpers;
 
-using CarringtonService.Services;
+using HelocService.Services;
 using System;
 using System.IO;
 
-namespace CarringtonService
+namespace HelocService
 {
     public class Program
     {

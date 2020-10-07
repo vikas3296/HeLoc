@@ -1,5 +1,5 @@
 ﻿
-namespace CarringtonService.Helpers
+namespace HelocService.Helpers
 {
     public static class Enums
     {

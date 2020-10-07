@@ -1,10 +1,10 @@
-﻿using CarringtonService.Models;
+﻿using HelocService.Models;
 using System;
 using System.IO;
 using System.Reflection;
 using System.Text;
 
-namespace CarringtonService.Helpers
+namespace HelocService.Helpers
 {
     public class Logger : ILogger
     {

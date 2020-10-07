@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarringtonMortgage.Models.InputCopyBookModels.MortgageLoanBillingModels
+namespace HelocService.Models.InputCopyBookModels.MortgageLoanBillingModels
 {
     public class CoBorrowerRecordModel
     {

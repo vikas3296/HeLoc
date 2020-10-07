@@ -1,4 +1,4 @@
-﻿namespace CarringtonService.BusinessExpert
+﻿namespace HelocService.BusinessExpert
 {
     public interface IWorkFlowExpert
     {

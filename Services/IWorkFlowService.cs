@@ -1,4 +1,4 @@
-﻿namespace CarringtonService.Services
+﻿namespace HelocService.Services
 {
     public interface IWorkFlowService
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CarringtonService.Helpers
+namespace HelocService.Helpers
 {
     public interface ILogger
     {

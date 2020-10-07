@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace CarringtonService.Models
+namespace HelocService.Models
 {
     public class LogFileModel
     {

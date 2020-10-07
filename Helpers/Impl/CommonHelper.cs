@@ -1,10 +1,10 @@
-﻿using CarringtonService.BusinessExpert;
+﻿//using HelocService.BusinessExpert;
 using System;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace CarringtonMortgage.Helpers
+namespace HelocService.Helpers
 {
     public static class CommonHelper
     {
@@ -118,23 +118,23 @@ namespace CarringtonMortgage.Helpers
         /// </summary>
         /// <param name="accountToMatch"></param>
         /// <returns></returns>
-        public static bool CheckAccountExistInSupplimentalFile(string accountToMatch)
-        {
-            bool recordFound = false;
-            try
-            {
+        //public static bool CheckAccountExistInSupplimentalFile(string accountToMatch)
+        //{
+        //    bool recordFound = false;
+        //    try
+        //    {
 
-                if (WorkFlowExpert.detModels.Any(df => df.LoanNumber == accountToMatch) || WorkFlowExpert.transModels.Any(df => df.LoanNumber == accountToMatch))
-                {
-                    recordFound = true;
-                }
-            }
-            catch (Exception)
-            {
-                recordFound = false;
-            }
-            return recordFound;
-        }
+        //        if (WorkFlowExpert.detModels.Any(df => df.LoanNumber == accountToMatch) || WorkFlowExpert.transModels.Any(df => df.LoanNumber == accountToMatch))
+        //        {
+        //            recordFound = true;
+        //        }
+        //    }
+        //    catch (Exception)
+        //    {
+        //        recordFound = false;
+        //    }
+        //    return recordFound;
+        //}
         public static string GetFormatedDateTimeWithAmPm(DateTime dateTime)
         {
             try

@@ -1,8 +1,8 @@
-﻿using CarringtonService.Models;
+﻿using HelocService.Models;
 using System;
 using System.Configuration;
 
-namespace CarringtonService.Helpers
+namespace HelocService.Helpers
 {
     public class ConfigHelper : IConfigHelper
     {

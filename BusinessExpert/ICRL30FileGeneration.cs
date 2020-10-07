@@ -1,6 +1,6 @@
-﻿using CarringtonMortgage.Models.InputCopyBookModels.MortgageLoanBillingModels;
+﻿using HelocService.Models.InputCopyBookModels.MortgageLoanBillingModels;
 
-namespace CarringtonService.BusinessExpert
+namespace HelocService.BusinessExpert
 {
     public interface ICRL30FileGeneration
     {

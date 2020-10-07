@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarringtonMortgage.Models.InputCopyBookModels
+namespace HelocService.Models.InputCopyBookModels
 {
     public class CmsBillingInputModel
     {

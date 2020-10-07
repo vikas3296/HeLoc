@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CarringtonMortgage.Models.InputCopyBookModels.MortgageLoanBillingModels
+namespace HelocService.Models.InputCopyBookModels.MortgageLoanBillingModels
 {
     public class MortgageLoanBillingFileModel
     {

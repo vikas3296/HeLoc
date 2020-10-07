@@ -1,6 +1,6 @@
-﻿using CarringtonMortgage.Models.InputCopyBookModels;
+﻿using HelocService.Models.InputCopyBookModels;
 
-namespace CarringtonMortgage.Calculation_Classes
+namespace HelocService.Calculation_Classes
 {
     public interface IRejectStatement
     {

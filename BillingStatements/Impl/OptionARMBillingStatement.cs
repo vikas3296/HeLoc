@@ -1,11 +1,11 @@
-﻿using CarringtonMortgage.Helpers;
-using CarringtonMortgage.Models.InputCopyBookModels;
-using CarringtonService.Helpers;
+﻿using HelocService.Helpers;
+using HelocService.Models.InputCopyBookModels;
+using HelocService.Helpers;
 using System;
 using System.Linq;
 using System.Text;
 
-namespace CarringtonService.BillingStatements
+namespace HelocService.BillingStatements
 {
     public class OptionARMBillingStatement : IOptionARMBillingStatement
     {

@@ -1,7 +1,7 @@
 ﻿
 using System.Collections.Generic;
 
-namespace CarringtonService.Models
+namespace HelocService.Models
 {
     public class ConfigModel
     {

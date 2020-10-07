@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Text;
-using CarringtonMortgage.Helpers;
-using CarringtonMortgage.Models.InputCopyBookModels;
-using CarringtonService.Helpers;
+using HelocService.Helpers;
+using HelocService.Models.InputCopyBookModels;
+using HelocService.Helpers;
 using System.Linq;
-using CarringtonService.BusinessExpert;
+using HelocService.BusinessExpert;
 /// <summary>
 /// Summary description for Class1
 /// </summary>
-namespace CarringtonService.BillingStatements
+namespace HelocService.BillingStatements
 {
     public class ChapterSevenBillingStatement : IChapterSevenBillingStatement
     {

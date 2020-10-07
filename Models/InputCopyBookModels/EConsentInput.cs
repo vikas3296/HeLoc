@@ -1,4 +1,4 @@
-﻿namespace CarringtonMortgage.Models.InputCopyBookModels
+﻿namespace HelocService.Models.InputCopyBookModels
 {
     public class EConsentInput
     {

@@ -1,4 +1,4 @@
-﻿namespace CarringtonMortgage.Models.InputCopyBookModels.MortgageLoanBillingModels
+﻿namespace HelocService.Models.InputCopyBookModels.MortgageLoanBillingModels
 {
     public class TrailerRecordModel
     {

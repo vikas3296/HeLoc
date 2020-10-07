@@ -1,9 +1,9 @@
-﻿using CarringtonMortgage.Models.InputCopyBookModels;
-using CarringtonService.Helpers;
+﻿using HelocService.Models.InputCopyBookModels;
+using HelocService.Helpers;
 using System;
 using System.Linq;
 
-namespace CarringtonMortgage.Calculation_Classes
+namespace HelocService.Calculation_Classes
 {
     public class RejectStatement : IRejectStatement
     {
