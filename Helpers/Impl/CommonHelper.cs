@@ -1,10 +1,10 @@
-﻿//using HelocService.BusinessExpert;
+﻿//using Heloc.BusinessExpert;
 using System;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace HelocService.Helpers
+namespace Heloc.Helpers
 {
     public static class CommonHelper
     {

@@ -1,12 +1,12 @@
-﻿using HelocService;
-using HelocService.BusinessExpert;
-using HelocService.Helpers;
+﻿using Heloc;
+using Heloc.BusinessExpert;
+using Heloc.Helpers;
 
-using HelocService.Services;
+using Heloc.Services;
 using System;
 using System.IO;
 
-namespace HelocService
+namespace Heloc
 {
     public class Program
     {

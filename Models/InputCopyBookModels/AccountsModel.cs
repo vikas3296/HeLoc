@@ -1,7 +1,7 @@
-﻿using HelocService.Models.InputCopyBookModels.MortgageLoanBillingModels;
+﻿using Heloc.Models.InputCopyBookModels.HelocBillingModels;
 using System.Collections.Generic;
 
-namespace HelocService.Models.InputCopyBookModels
+namespace Heloc.Models.InputCopyBookModels
 {
     public class AccountsModel
     {
@@ -18,7 +18,7 @@ namespace HelocService.Models.InputCopyBookModels
             //ForeignInformationRecordModel = new ForeignInformationRecordModel();
             //LateChargeDetailRecordModel = new LateChargeDetailRecordModel();
             //LateChargeInformationRecordModel = new LateChargeInformationRecordModel();
-            MasterFileDataPart_1Model = new MasterFileDataPart_1Model();
+            MasterFileDataPart_1Model = new MasterFileDataPart1Model();
             MasterFileDataPart2Model = new MasterFileDataPart2Model();
             MultiLockboxRecordModel = new MultiLockboxRecordModel();
             OptionalItemEscrowRecordModel = new List<OptionalItemEscrowRecordModel>();
@@ -45,7 +45,7 @@ namespace HelocService.Models.InputCopyBookModels
         //public ForeignInformationRecordModel ForeignInformationRecordModel { get; set; }
         //public LateChargeDetailRecordModel LateChargeDetailRecordModel { get; set; }
         //public LateChargeInformationRecordModel LateChargeInformationRecordModel { get; set; }
-        public MasterFileDataPart_1Model MasterFileDataPart_1Model { get; set; }
+        public MasterFileDataPart1Model MasterFileDataPart_1Model { get; set; }
         public MasterFileDataPart2Model MasterFileDataPart2Model { get; set; }
         public MultiLockboxRecordModel MultiLockboxRecordModel { get; set; }
         public List<OptionalItemEscrowRecordModel> OptionalItemEscrowRecordModel { get; set; }

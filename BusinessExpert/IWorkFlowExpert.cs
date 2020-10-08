@@ -1,4 +1,4 @@
-﻿namespace HelocService.BusinessExpert
+﻿namespace Heloc.BusinessExpert
 {
     public interface IWorkFlowExpert
     {

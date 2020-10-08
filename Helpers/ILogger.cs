@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HelocService.Helpers
+namespace Heloc.Helpers
 {
     public interface ILogger
     {

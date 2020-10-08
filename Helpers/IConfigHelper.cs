@@ -1,6 +1,6 @@
-﻿using HelocService.Models;
+﻿using Heloc.Models;
 
-namespace HelocService.Helpers
+namespace Heloc.Helpers
 {
     public interface IConfigHelper
     {

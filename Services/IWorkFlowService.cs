@@ -1,4 +1,4 @@
-﻿namespace HelocService.Services
+﻿namespace Heloc.Services
 {
     public interface IWorkFlowService
     {

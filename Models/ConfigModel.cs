@@ -1,7 +1,7 @@
 ﻿
 using System.Collections.Generic;
 
-namespace HelocService.Models
+namespace Heloc.Models
 {
     public class ConfigModel
     {

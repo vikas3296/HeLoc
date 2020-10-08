@@ -2,10 +2,10 @@
 using System;
 using System.Timers;
 using System.Diagnostics;
-using HelocService.Helpers;
-using HelocService.BusinessExpert;
+using Heloc.Helpers;
+using Heloc.BusinessExpert;
 
-namespace HelocService.Services
+namespace Heloc.Services
 {
     public class WorkFlowService : IWorkFlowService
     {

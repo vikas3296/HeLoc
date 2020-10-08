@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace HelocService.Models
+namespace Heloc.Models
 {
     public class LogFileModel
     {

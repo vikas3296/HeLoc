@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{C5451BFE-1D32-42DD-BAC1-A8FABBEC2CF3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CarringtonMortgage</RootNamespace>
-    <AssemblyName>CarringtonMortgage</AssemblyName>
+    <RootNamespace>HelocBillingStatement</RootNamespace>
+    <AssemblyName>Heloc_BillingStatement_ETL</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -134,13 +134,26 @@
     <Compile Include="Helpers\Impl\Logger.cs" />
     <Compile Include="Models\ConfigModel.cs" />
     <Compile Include="Models\InputCopyBookModels\AccountsModel.cs" />
-    <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingModels\MultiLockboxRecordModel.cs" />
-    <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingModels\OptionalItemEscrowRecordModel.cs" />
-    <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingModels\HeaderRecordModel.cs" />
-    <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingModels\InstitutionRecordModel.cs" />
-    <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingModels\MasterFileDataPart1Model.cs" />
-    <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingModels\MasterFileDataPart2Model.cs" />
-    <Compile Include="Models\InputCopyBookModels\MortgageLoanBillingModels\PL_RecordModel.cs" />
+    <Compile Include="Models\InputCopyBookModels\HelocBillingModels\AccessCheckRecordModel.cs" />
+    <Compile Include="Models\InputCopyBookModels\HelocBillingModels\AddressRecordModel.cs" />
+    <Compile Include="Models\InputCopyBookModels\HelocBillingModels\EscrowRecordModel.cs" />
+    <Compile Include="Models\InputCopyBookModels\HelocBillingModels\FeeRecordModel.cs" />
+    <Compile Include="Models\InputCopyBookModels\HelocBillingModels\LineOfCreditDisputedTransactionModel.cs" />
+    <Compile Include="Models\InputCopyBookModels\HelocBillingModels\LineOfCreditItemizedInitialAdvanceModel.cs" />
+    <Compile Include="Models\InputCopyBookModels\HelocBillingModels\MultiLockboxRecordModel.cs" />
+    <Compile Include="Models\InputCopyBookModels\HelocBillingModels\OptionalItemEscrowRecordModel.cs" />
+    <Compile Include="Models\InputCopyBookModels\HelocBillingModels\HeaderRecordModel.cs" />
+    <Compile Include="Models\InputCopyBookModels\HelocBillingModels\InstitutionRecordModel.cs" />
+    <Compile Include="Models\InputCopyBookModels\HelocBillingModels\MasterFileDataPart1Model.cs" />
+    <Compile Include="Models\InputCopyBookModels\HelocBillingModels\MasterFileDataPart2Model.cs" />
+    <Compile Include="Models\InputCopyBookModels\HelocBillingModels\PL_RecordModel.cs" />
+    <Compile Include="Models\InputCopyBookModels\HelocBillingModels\RateLockDisclosureRecordModel.cs" />
+    <Compile Include="Models\InputCopyBookModels\HelocBillingModels\RateReductionRecordModel.cs" />
+    <Compile Include="Models\InputCopyBookModels\HelocBillingModels\SolicitationRecordModel.cs" />
+    <Compile Include="Models\InputCopyBookModels\HelocBillingModels\SubBalanceDisclosureRecordModel.cs" />
+    <Compile Include="Models\InputCopyBookModels\HelocBillingModels\SubBalanceInterestBreakdownRecordModel.cs" />
+    <Compile Include="Models\InputCopyBookModels\HelocBillingModels\TieredRateRecordModel.cs" />
+    <Compile Include="Models\InputCopyBookModels\HelocBillingModels\TransactionRecordModel.cs" />
     <Compile Include="Models\LogFileModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

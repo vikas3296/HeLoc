@@ -1,10 +1,10 @@
-﻿using HelocService.Models;
+﻿using Heloc.Models;
 using System;
 using System.IO;
 using System.Reflection;
 using System.Text;
 
-namespace HelocService.Helpers
+namespace Heloc.Helpers
 {
     public class Logger : ILogger
     {

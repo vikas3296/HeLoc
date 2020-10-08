@@ -1,15 +1,15 @@
-﻿//using HelocService.BusinessExpert;
-//using HelocService.BillingStatements;
-//using HelocService.Calculation_Classes;
-//using HelocService.OptionAssignment;
-//using HelocService.BusinessExpert;
+﻿//using Heloc.BusinessExpert;
+//using Heloc.BillingStatements;
+//using Heloc.Calculation_Classes;
+//using Heloc.OptionAssignment;
+//using Heloc.BusinessExpert;
 
-using HelocService.BusinessExpert;
-using HelocService.Helpers;
-using HelocService.Services;
+using Heloc.BusinessExpert;
+using Heloc.Helpers;
+using Heloc.Services;
 using SimpleInjector;
 
-namespace HelocService
+namespace Heloc
 {
     public static class DIContainer
     {

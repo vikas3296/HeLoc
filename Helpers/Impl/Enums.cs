@@ -1,5 +1,5 @@
 ﻿
-namespace HelocService.Helpers
+namespace Heloc.Helpers
 {
     public static class Enums
     {

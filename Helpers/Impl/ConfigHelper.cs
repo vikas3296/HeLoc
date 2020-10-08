@@ -1,8 +1,8 @@
-﻿using HelocService.Models;
+﻿using Heloc.Models;
 using System;
 using System.Configuration;
 
-namespace HelocService.Helpers
+namespace Heloc.Helpers
 {
     public class ConfigHelper : IConfigHelper
     {

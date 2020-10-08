@@ -4,12 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ODHS-eDelivery")]
-[assembly: AssemblyDescription("ODHS-eDelivery solution facilitate the functionality " +
-    "to setting up E-mail delivery Process & bounce reports.")]
+[assembly: AssemblyTitle("Heloc_BillingStatement_ETL")]
+[assembly: AssemblyDescription("Heloc Billing Statement ETL.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("OSG - Diamond")]
-[assembly: AssemblyProduct("ODHS-eDelivery")]
+[assembly: AssemblyCompany("NCP")]
+[assembly: AssemblyProduct("Heloc_BillingStatement_ETL")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -32,5 +31,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("2.3.0.0")]
+[assembly: AssemblyVersion("1.0.0.0")]
 //[assembly: AssemblyFileVersion("2.1.0.0")]
